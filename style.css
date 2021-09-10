@@ -1,0 +1,124 @@
+body {
+    margin: 0px;
+    background: linear-gradient(90deg, rgb(78, 78, 78), #fff);
+}
+
+.top-nav {
+    background: rgb(0, 0, 0);
+    box-sizing: border-box;
+    display: grid;
+    height: 70px;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    height: 70px;
+    padding-left: 25px;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid a {
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 20px;
+    color: rgb(97, 127, 219);
+    padding: 15px;
+}
+
+.mid a:hover {
+    background: rgb(48, 49, 51);
+    margin-top: 5px;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main img {
+    display: flex;
+    margin-top: 30px;
+    height: 500px;
+    border-radius: 70px;
+}
+
+.apraksts {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 20px;
+    height: 500px;
+    width: 600px;
+}
+
+.gtopic {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.gallery {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery img {
+    border-radius: 30px;
+    display: flex;
+    height: 300px;
+}
+
+
+.etopic {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.experience {
+    display: flex;
+}
+
+.ktopic {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.contacts {
+    display: flex;
+    font-size: 17px;
+    color: sandybrown;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: sandybrown;
+}
+
+.contacts svg {
+    align-items: center;
+}
+
+.experience {
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 20px;
+}
+
+.experience p a {
+    text-decoration: none;
+    color: black;
+}
